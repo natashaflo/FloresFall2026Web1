@@ -1,0 +1,42 @@
+body {
+ background-color: rgb(230,178,200);
+ color: #5c4033; 
+
+ font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1{
+ font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* favorite websites, artist names */ 
+h2{
+  color: #76a973;
+
+}
+
+
+
+
+
+/* descendant select */
+
+/* links in navbar */
+nav a {  color: rgb(217,1,102);
+
+  font-family: "Bitcount Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+/* links in main section */ 
+main a {
+    color: rgb(59, 42, 42)
+}
