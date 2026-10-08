@@ -1,0 +1,89 @@
+body {
+ background-color: #6699cc;
+ color: #fff275; 
+
+ font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1{
+ font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* favorite websites, artist names */ 
+h2{
+  color: #a23e48;
+
+}
+
+/* descendant select */
+
+/* links in navbar */
+/* the inline affects the margin */
+/* to have the nav bar options next to each other use inline-block */
+nav a {  color: #fff275;
+
+  font-family: "Bitcount Single", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+ background-color: #ff8c42;
+ display: inline-block;
+ padding: 10px;
+ margin: 10px; 
+ border: 2px solid #0f0;
+ font-size: 16px;
+  
+}
+
+
+/* ;hover can be attached to anything not just links, but sometimes highlighting can be thought of as a link  */
+
+nav a:hover {
+  background-color: #fff;
+  border: 2px solid #f00;
+  font-size: 18px;
+}
+
+
+
+/* ID RULE uses "#" where as classes use "." syntax , you dont necessarily need the div its attached */
+/* you dont necessarily need div you could just use .artistEntry */
+#headerSection {
+  /* background-color: #792929; */
+  padding: 20px;
+}
+
+
+/* links in main section */ 
+main a { 
+    color: #3b2a2a;  
+}
+
+div.artistEntry {
+padding: 20px;
+margin: 100px 100px 100px 0px;
+border: 8px dotted #0ff; 
+background-color:#ffa38c;
+}
+
+/* make sure to have the img tag in your html then put the image in css and then use artistEntry img
+-for images in page total should 3mb for individual file size under 300kb
+/* div.artistEntry img {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f00;
+    border: 3px solid rgb(0, 255, 213);
+} */
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0px; 
+  padding: 0px;
+}
