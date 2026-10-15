@@ -1,0 +1,167 @@
+/* START border-box fix / can use this for all css now 
+html {
+  box-sizing: border-box;
+}
+
+
+
+
+
+/* start borderbox fix */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+/* ends borderbox fix */
+
+
+body {
+	background-color: #2b1f1d;
+	padding: 0px;
+	margin: 0px;
+}
+
+div.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: #f7f4ef;
+  border-radius: 8px;
+  overflow: hidden; 
+}
+
+header, nav, main, aside, footer {
+	padding: 25px;
+}
+
+header {
+  background-color: #8c2d19; 
+  color: #f7f4ef;
+  font-family: "Trade Winds", system-ui;
+  font-weight: 400;
+  text-align: center;
+}
+
+
+nav {
+	background-color: #3b4238;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	text-align: center;
+}
+
+nav ul {
+	padding: 0px;
+	margin: 0px;
+}
+
+nav ul li {
+	display: inline-block; 
+	background-color: #f7f4ef;
+	color: #3b4238;
+	width: 100px;
+	text-align: center;
+	padding: 10px 0px;
+	margin: 0px 15px;
+	border: groove 4px #8c2d19;
+	font-weight: bold;
+}
+
+main {
+  background-color: #f7f4ef;
+  float: left; 
+  width: 70%;
+  padding: 30px;
+}
+
+main div.description img.thumbnail {
+	width: 130px;
+	border: groove 6px #8c2d19;
+	float: left;
+	margin: 0px 15px 5px 0px;
+}
+
+main div.description {
+  margin-bottom: 40px; 
+  overflow: hidden; 
+}
+
+.trade-winds-regular {
+  font-family: "Trade Winds", system-ui;
+  font-weight: 400;
+  color: #8c2d19;
+}
+
+
+div.buttonAbsolute {
+	background-color: #5c3a21;
+	color: #fff;
+	position: sticky; /* Sticky positioning experiment */
+	top: 80px;
+	float: right;
+	margin-right: 20px;
+	padding: 15px;
+	border-radius: 20px;
+	z-index: 4;
+	width: 130px;
+	text-align: center;
+} 
+
+div.buttonAbsolute2 {
+	background-color: #3b4238;
+	color: #fff;
+	position: absolute; /* Absolute positioning experiment */
+	top: 20px;
+	right: 40px;
+	border-radius: 50px;
+	padding: 15px;
+	z-index: 3;
+	width: 120px;
+	text-align: center; 
+} 
+
+div.buttonRelative {
+	background-color: #8c2d19;
+	color: #fff;
+	position: relative; /* Relative positioning experiment */
+	left: 20px;
+	top: 10px;
+	width: 130px;
+	padding: 10px;
+	text-align: center;
+	z-index: 5;
+}
+
+aside {
+  background-color: #e3dcd2; 
+  float: right; 
+  width: 30%;
+  min-height: 600px;
+  padding: 30px;
+  border-left: 2px solid #d0c8be;
+}
+
+aside h2 {
+  color: #8c2d19;
+  font-family: "Trade Winds", system-ui;
+  font-size: 1.2rem;
+}
+
+aside .sidebar-list {
+  list-style-type: square;
+  padding-left: 20px;
+  color: #3b4238;
+}
+
+
+footer {
+  background-color: #2b1f1d;
+  color: #f7f4ef;
+  text-align: center;
+  clear: both; 
+  padding: 20px;
+}
