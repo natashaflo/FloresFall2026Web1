@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ANIMATION 2</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aldrich&family=Limelight&display=swap" rel="stylesheet">
+    
+    <style> 
+     .animated-box {
+            width: 200px;
+              height: 200px;
+               background-color: #8b00fd;
+               position: relative;
+            margin-top: 20px;
+        }
+
+     .child {
+              background-color: #f50501;
+                height: 50px;
+              width: 50px;
+    position: absolute;
+        }
+
+    /* starts animation when hovering over the box */
+     .animated-box:hover .child {
+            animation: myAnimation2 2s ease-in-out infinite alternate;
+        }
+
+        @keyframes myAnimation2 {
+            0% {
+ transform: translateX(0) translateY(0);
+                background-color: #81cec7;
+            }
+            33% {
+ transform: translateX(150px) translateY(0);
+            }       66% {
+         transform: translateX(150px) translateY(150px);
+            }
+            100% {
+                     transform: translateX(0) translateY(150px);
+          background-color: #e46926;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+                <header>
+            <h1>ANIMATION 2</h1>
+        </header>
+
+        <main>
+            <h2>Welcome to Animation 2</h2>
+
+            <div class="animated-box">
+                <div class="child"></div>
+            
+        </main>
+
+        <aside>
+            <h3>Related Info</h3>
+            <p><aside>
+    <p><strong>How it works:</strong> This animation uses CSS @keyframes paired with a :hover trigger. When the cursor enters the box, the square moves along a custom path while smoothly shifting from blue to orange.</p>
+</aside></p>
+        </aside>
+
+           <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="historyPage.html">HISTORY</a></li>
+                <li><a href="animationOne.html">ANIMATION 1</a></li>
+                <li><a href="animationTwo.html">ANIMATION 2</a></li>
+            </ul>
+            </nav>
+
+            <footer>
+           <h2>&copy; 2026 Natasha Flores <br>
+             All Rights Reserved</h2>
+        </footer>
+    </div>
+</body>
+
+</html>
